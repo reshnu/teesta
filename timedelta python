@@ -1,0 +1,16 @@
+
+
+from datetime import datetime
+from datetime import date
+
+def main():
+  today=datetime.now()
+  print("today is "+str(today))
+  print(today.strftime("today is %h %d %Y"))
+  mybirthday=datetime(today.year,5,19)
+  h=mybirthday-today
+  print(h)
+
+
+if __name__=="__main__":
+  main()
