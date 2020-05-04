@@ -1,0 +1,10 @@
+
+import os
+from os import path
+
+
+def main():
+  print (os.name)
+  print ("Item exists: " + str(path.exists("text.txt")))
+if __name__ == "__main__":
+  main()
