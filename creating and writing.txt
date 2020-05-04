@@ -1,0 +1,7 @@
+#creating and writing to a file
+def main():
+  f=open('test.txt','w+')
+  f.write("hi My dear are you fine")
+  f.close()
+if __name__=="__main__":
+  main()

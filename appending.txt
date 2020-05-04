@@ -1,0 +1,8 @@
+##appending to a file
+
+def main():
+  f=open("test.txt","a")
+  f.write("just test for appending")
+  f.close()
+if __name__=="__main__":
+  main()
