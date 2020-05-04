@@ -1,0 +1,9 @@
+##Rename
+
+
+import os
+def main():
+
+  os.rename("reshnu.txt","reshnuchandran.txt")
+if __name__=="__main__":
+  main()
