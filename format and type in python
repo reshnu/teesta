@@ -1,0 +1,18 @@
+##format and type
+def main():
+  x=7
+  y='7.0'
+  print('the value of x is {}'.format(x))#integer
+  print('The value of y is '+y)#String
+  print(type(x))
+  print(type(y))
+if __name__=="__main__":
+  main()
+  
+  
+  output
+  
+  the value of x is 7
+The value of y is 7.0
+<class 'int'>
+<class 'str'>
