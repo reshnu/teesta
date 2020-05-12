@@ -1,0 +1,11 @@
+from decimal import *
+a=Decimal('.10')
+b=Decimal('.30')
+x=a+a+a-b
+print(x)
+
+##without using decimal
+
+x=.10+.10+.10-.30
+print(x)
+
