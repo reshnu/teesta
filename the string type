@@ -1,0 +1,42 @@
+##String 
+
+class String_test:
+  def stringg(self):
+    x='Hi'
+    y="Hi"
+    z='''
+    
+    Hi
+    
+    
+    '''
+    a="""
+    
+    Hi
+    
+    
+    """
+    print(x)
+    print(y)
+    print(z)
+    print(a)
+  def another_string(self):
+    x="Hi my name is Reshnu".capitalize()
+    y="Hi my name is Reshnu".upper()
+    z="Hi my name is Reshnu".lower()
+    print(x)
+    print(y)
+    print(z)
+  def string_format(self):
+    x="Hi my Age is {} in {}".format(20,2020)
+    y="Hi my age is {0:<5} in {1:>5}".format(20,2020)
+    print(x)
+    print(y)
+
+def main():
+  obj=String_test()
+  obj.stringg()
+  obj.another_string()
+  obj.string_format()
+if __name__=="__main__":
+  main()
